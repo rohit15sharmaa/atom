@@ -1,0 +1,186 @@
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing:border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+   }
+
+/* desktop header */
+.desktop_header{
+	width: 100%;
+	height: 92px;
+	background:black;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+/* logo */
+.logo{
+ color: white;
+ font-size:46px;
+ font-family:Arial Narrow Bold;
+ }
+
+.logo_G{
+    color: rgb(255, 0, 0);
+ font-size:46px;
+ font-family:serif;
+  margin-left:-9px;
+}
+.logo_o{
+    color: rgb(255, 255, 255);
+ font-size:46px;
+ font-family:Arial Narrow Bold;
+ margin-left:-9px;
+
+}
+
+/* ul li */
+
+.HOME {
+ display: flex;
+ 
+   }
+   
+.HOME li{
+ list-style: none;
+ margin-left: 19px;
+
+}
+
+.HOME li a{
+    color: white;
+ text-decoration: none;
+}
+.fa-cart-shopping{
+    color:rgb(200, 196, 196);
+    font-size: 24px;
+    margin-right: 28px;
+}
+
+ @media (min-width:800px) and (max-width:1200px){
+    .desktop_header > nav > ul > li > a{
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+        padding:24px 18px;
+    }
+    
+
+}
+
+
+   /* mobo header */
+
+
+
+
+
+
+
+
+   .mobo_header{
+    display: none;
+}
+
+/* all */
+    
+@media (max-width:800px)  {
+    .desktop_header{
+     display: none;
+    }
+}
+
+    @media (min-width:801px) and (max-width:1560px){
+        .mobo_header{
+            display: none;
+        }
+        
+    }
+
+
+    @media (max-width:800px)  {
+      
+
+
+
+        
+        .mobo_header{
+            width: 100%;
+            height: 92px;
+            background:black;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }
+        
+        
+        
+        /* logo */
+        .mobo_logo{
+         color: white;
+         font-size:46px;
+         font-family:Arial Narrow Bold;
+         margin-left:10px;
+         }
+        
+        .mobo_logo_G{
+            color: rgb(255, 0, 0);
+         font-size:46px;
+         font-family:serif;
+          margin-left:-9px;
+        }
+        .mobo_logo_o{
+            color: rgb(255, 255, 255);
+         font-size:46px;
+         font-family:Arial Narrow Bold;
+         margin-left:-9px;
+        
+        }
+        
+        /* bars */
+        .fa-bars{
+            color:rgb(200, 196, 196);
+            font-size:52px;
+            margin-right: 28px;
+        }
+        
+        
+        
+        /* ul li */
+        
+        .mobo_HOME{
+            width: 100%;
+            height: 251px;
+               position:absolute;
+            top:90px;
+            right: 0px;
+            list-style: none;
+            background-color: black;
+            transform: translateY(-100%);
+            z-index:-1;
+        }
+        
+      .demo{
+         transform: translateY(0%);
+         }
+        
+        .mobo_HOME > li > a{
+            height: 58px;
+            font-size: 33px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            margin: 0px auto;
+            text-decoration: none;
+            /* padding: 25px 277px; */
+            text-align: center;
+        }
+    
+        }
+ 
